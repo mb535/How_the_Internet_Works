@@ -43,14 +43,14 @@
     </div>
 </nav>
 <div class="jumbotron text-center" style="margin-bottom:0">
-  <h1>IP Addresses, Packets, and Routing</h1>
+  <h1>DNS (Domain Name System)</h1>
 </div>
 <div class="container" style="margin-top:30px">
   <div class="row">
     <div class="col-sm-4">
      <div >
-        <img class="img-fluid" src="images/ipaddr.jpg" alt="people">
-         <p>Most of routing is done through servers located in dedicated data centers. IP packets are routed worldwide in three ways. One way is by electricity through copper wire. Another is by light through fiber optics. And lastly is radio signals by wifi.</p>
+        <img class="img-fluid" src="images/dns.jpg" alt="people">
+         <p>DNS servers are usually located in data centers</p>
      </div>
 
       <hr class="d-sm-none">
@@ -58,19 +58,13 @@
 
     <div class="col">
       <p>
-        IP(Internet Protocol) addresses are the numerical representation of an networking device such as a computer, a server, network card, etc. IP addresses on each networking device is unique. There are two versions of IP addresses: IPv4 and IPv6.
-          Most people at the moment are more familiar with IPv4 as they are more frequently used and exemplified.
-          IPv4 is 32 bit longs and was designed in 1973.  It has an address space of morethan 4 billion unique addresses for devices
-          conected to the internet.  However the internet grew too large and IPv4 is running out of unique address thus IPv6 was made to address that problem.
-          IPv6 uses 128 bits per address and provides over 340 undecillion unique addresses which experts believe is more than enough.
-          An example of an ipv4 address is 69.63.176.13 which is one of facebook's many ip addresses they own.
-          <br><br>
-        Packets are the information packaged by the router to be sent to their designated destination.  Packets are generally made up of an IP header and the data payload or segments.  Packets are usually broken down into fragments through a process called fragmentation and are reassembled at the router.
+        DNS (Domain Name System) is a server that handles domain name resolution.  In other words in translates the domain name with it corresponding assigned IP address.
+          For example, a DNS server associate names such as www.example.com with its corresponding ip address such as 174.129.14.201.
+          The computer uses the DNS server to look domain names and get the associated IP address which is used to connect the computer to the destination on the internet.
+          There are numerous DNS servers around the world which are connected in a distributed hierarchy and are
+          divided into ones, splitting up responsibility for the major domains such as .org,.com,.net,etc.
+          One of the most popular DNS server right now is Google which has an ip address of 8.8.8.8.
 
-          <br><br>
-        Routing is the act of sending packets from one node to another.  It is usually done by the routers however some switches can also do ip routing.  Routing is done in two ways: static routing and dynamic routing.
-          Static routing is when you manually add in ip address to the routing table.  This is usually done for small networks and for more security.  Dynamic routing is when you use a protocol to discovered nearby adjacent networks
-          and ip addresses are adding automatically to the routing table.
 
       </p>
     </div>
